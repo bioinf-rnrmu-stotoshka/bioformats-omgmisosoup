@@ -32,6 +32,14 @@ A Python library for reading and analyzing various bioinformatics file formats w
 ```bash
 git clone https://github.com/bioinf-rnrmu-stotoshka/bioformats-omgmisosoup.git
 cd bioformats-omgmisosoup
+
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# или
+venv\Scripts\activate     # Windows
+
+# Установка в режиме разработки
+pip install -e .
 ```
 
 ### Prerequisites
