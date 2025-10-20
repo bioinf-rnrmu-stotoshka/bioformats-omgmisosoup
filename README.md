@@ -36,3 +36,6 @@ A Python library for reading and analyzing various bioinformatics file formats w
 
 ```bash
 pip install pandas seaborn matplotlib numpy
+```
+### NOTE: For example of sam file DM solnyshko2009
+  
