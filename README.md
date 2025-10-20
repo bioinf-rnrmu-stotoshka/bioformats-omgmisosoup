@@ -29,6 +29,10 @@ A Python library for reading and analyzing various bioinformatics file formats w
 - **Genomic region filtering**
 
 ## Installation
+```bash
+git clone https://github.com/bioinf-rnrmu-stotoshka/bioformats-omgmisosoup.git
+cd bioformats-omgmisosoup
+```
 
 ### Prerequisites
 - Python 3.7+
