@@ -1,4 +1,4 @@
-from sequence_reader import SequenceReader
+from classes.sequence_reader import SequenceReader
 
 
 class FastaReader(SequenceReader):

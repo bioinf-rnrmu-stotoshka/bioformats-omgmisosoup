@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Iterator
-from abstract_reader import Reader
+from classes.abstract_reader import Reader
 
 
 class GenomicDataReader(Reader):

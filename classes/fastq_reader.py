@@ -1,4 +1,4 @@
-from sequence_reader import SequenceReader
+from classes.sequence_reader import SequenceReader
 from itertools import islice
 import pandas as pd
 import seaborn as sns

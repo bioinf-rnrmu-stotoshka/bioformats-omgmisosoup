@@ -2,10 +2,10 @@
 Simple Usage Examples for Bioinformatics Readers
 """
 
-from fasta_reader import FastaReader
-from fastq_reader import FastqReader
-from samreader import SAMReader
-from vcfreader import VCFProcessor
+from classes.fasta_reader import FastaReader
+from classes.fastq_reader import FastqReader
+from classes.samreader import SAMReader
+from classes.vcfreader import VCFProcessor
 
 def simple_fasta_example():
     """Simple FASTA file reading example."""

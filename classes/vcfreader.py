@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 from typing import List, Dict, Any, Iterator
-from genomicdatareader import GenomicDataReader
+from classes.genomicdatareader import GenomicDataReader
 
 
 class Variant:
