@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 from typing import List, Dict, Any, Iterator
-from classes.genomicdatareader import GenomicDataReader
+from genomicdatareader import GenomicDataReader
 
 
 class Variant:
@@ -54,6 +54,7 @@ class VCFProcessor(GenomicDataReader):
             vcf_file (str): Path to VCF file
         """
         super().__init__(vcf_file)
+        self.filename = vcf_file
         self.metadata = {}
         self.header = []
         self.samples = []
@@ -207,7 +208,6 @@ class VCFProcessor(GenomicDataReader):
         Read and parse VCF file
         Creates pandas dataframe with variants
         """
-        print(f"Reading VCF file: {self.filename}")
 
         metadata_lines = []
         header_line = ""
@@ -497,7 +497,7 @@ class VCFProcessor(GenomicDataReader):
 
 
 def main():
-    vcf_file = "/content/S1.haplotypecaller.filtered.phased.csq.vcf"
+    vcf_file = r"c:\Users\Asus\Desktop\miso\exmpl.vcf"
     processor = VCFProcessor(vcf_file)
     processor.parse_file()
 
